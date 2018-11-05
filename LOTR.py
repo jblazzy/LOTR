@@ -6,7 +6,10 @@ import urllib.request
 
 
 
-text = open('LOTR.txt', 'r').read()
+text1 = open('LOTR.txt', 'r').read()
+
+text2 
+
 
 ### Possibly split into chapters to do topic modeling on the topic of each chapter??
 
