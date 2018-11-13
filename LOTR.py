@@ -11,6 +11,31 @@ import requests
 # IE: 
 # ►M MPR -F+MTRX MP ft PPtK P&RMPht: P. t. The last Two runes are the initials of Thror and Thrain.
 
+## USING CHAPTERIZE NOW
+
+
+
+# Import Silmarillion
+url = "https://archive.org/stream/fegmcfeggerson_gmail_4731/473%20%281%29_djvu.txt"
+r = requests.get(url)
+root = lh.parse(io.BytesIO(r.content)).getroot()
+pre = root.xpath('//pre') # Access Silm text within the tree
+#print(len(xp))           # Make sure this is the correct element
+book = pre[0]             # Silm HTML object
+Silmarillion_Full = book.text  # Full Silmarillion text
+## Split into chapters
+
+
+# Import The Hobbit
+url = "https://archive.org/stream/TheHobbitByJ.R.RTolkien/The%20Hobbit%20by%20J.R.R%20Tolkien_djvu.txt"
+r = requests.get(url)
+root = lh.parse(io.BytesIO(r.content)).getroot()
+pre = root.xpath('//pre') # Access Silm text within the tree
+#print(len(xp))           # Make sure this is the correct element
+book = pre[0]             # Silm HTML object
+Hobbit_Full = book.text  # Full Silmarillion text
+## Split into chapters
+
 # Import The Fellowship of the Ring
 url = "https://archive.org/stream/TheLordOfTheRing1TheFellowshipOfTheRing/The+Lord+Of+The+Ring+1-The+Fellowship+Of+The+Ring_djvu.txt"
 r = requests.get(url)
@@ -40,28 +65,6 @@ pre = root.xpath('//pre') # Access Silm text within the tree
 book = pre[0]             # Silm HTML object
 King_Full = book.text  # Full Silmarillion text
 ## Split into chapters
-
-
-# Import Silmarillion
-url = "https://archive.org/stream/fegmcfeggerson_gmail_4731/473%20%281%29_djvu.txt"
-r = requests.get(url)
-root = lh.parse(io.BytesIO(r.content)).getroot()
-pre = root.xpath('//pre') # Access Silm text within the tree
-#print(len(xp))           # Make sure this is the correct element
-book = pre[0]             # Silm HTML object
-Silmarillion_Full = book.text  # Full Silmarillion text
-## Split into chapters
-
-# Import The Hobbit
-url = "https://archive.org/stream/TheHobbitByJ.R.RTolkien/The%20Hobbit%20by%20J.R.R%20Tolkien_djvu.txt"
-r = requests.get(url)
-root = lh.parse(io.BytesIO(r.content)).getroot()
-pre = root.xpath('//pre') # Access Silm text within the tree
-#print(len(xp))           # Make sure this is the correct element
-book = pre[0]             # Silm HTML object
-Hobbit_Full = book.text  # Full Silmarillion text
-## Split into chapters
-
 
 ### GOAL: split all books into chapters -> Run Sentiment Analysis and Topic Modeling
 ###      --> Use Sentiment140 API for sentiment analysis
