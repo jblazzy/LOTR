@@ -1,5 +1,10 @@
 # LOTR
-Running some word processing on a LOTR corpus.
+Sentiment analysis and topic modeling on the LOTR corpus.
 
-Goal:
-  Run Topic Modeling and Sentiment Analysis on the work of J.R.R. Tolkien.
+Corpus Details:
+  - The Silmarillion
+  - The Hobbit
+  - The Fellowship of the Ring
+  - The Two Towers
+  - The Return of the King
+  
