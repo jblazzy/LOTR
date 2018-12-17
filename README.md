@@ -9,3 +9,7 @@ Corpus Details:
   - The Return of the King
   
 **DO NOT** move around the text files.
+
+## Documentation
+http://help.sentiment140.com/for-students <br/>
+https://github.com/JonathanReeve/chapterize
