@@ -13,4 +13,4 @@ Corpus Details:
 ## Documentation
 http://help.sentiment140.com/for-students <br/>
 https://github.com/JonathanReeve/chapterize <br/>
-https://www.safaribooksonline.com/library/view/introduction-to-machine/9781449369880/ch01.html
+Introduction to Machine Learning with Python (student accessible):  https://www.safaribooksonline.com/library/view/introduction-to-machine/9781449369880/ch01.html
