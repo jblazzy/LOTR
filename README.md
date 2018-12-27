@@ -11,6 +11,8 @@ Corpus Details:
   
 **DO NOT** move around the text files. (.txt and '-chapters' files)
 
+The program uses packages from the following libraries: NLTK, sklearn, mglearn, matplotlib, collections as well as several other independent packages.
+
 ## Documentation
 http://help.sentiment140.com/for-students <br/>
 https://github.com/JonathanReeve/chapterize <br/>
