@@ -1,5 +1,5 @@
 # LOTR
-Sentiment analysis and topic modeling on the LOTR corpus.
+Sentiment analysis and topic modeling on the LOTR corpus. </br>
 All significant work is located in LOTR.ipynb, I found Jupyter Notebook to be more effective for this project, as I spent far less time compiling the program, this is usually the case for programs involving work with Natural Language Processing (and extensive use of Lists of Lists).
 
 Corpus Details:
