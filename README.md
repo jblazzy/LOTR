@@ -13,6 +13,8 @@ Corpus Details:
 
 The program uses packages from the following libraries: NLTK, sklearn, mglearn, matplotlib, collections as well as several other independent packages.
 
+The exported dataframes were typically used with Excel or Tableau (with access to a 14-day trial).
+
 ## Documentation
 http://help.sentiment140.com/for-students <br/>
 https://github.com/JonathanReeve/chapterize <br/>
